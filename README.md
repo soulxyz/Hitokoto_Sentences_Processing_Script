@@ -12,7 +12,7 @@
 2. 将 `sentences-bundle-master.zip` 文件放在与脚本相同的目录中，或将 `sentences` 文件夹解压到相同的目录中。
 3. 运行 `process_sentences.py` 脚本。
 
-该脚本会自动将检查当前目录中是否存在 `sentences-bundle-master.zip` 文件。如果存在，它将解压该文件。然后，它将处理 `sentences` 文件夹中的所有 JSON 文件，提取 `hitokoto` 和 `from` 字段，并将它们写入 `result.txt` 文件。
+该脚本会自动将检查当前目录中是否存在 `sentences-bundle-master`文件夹，如果不存在，尝试解压`sentences-bundle-master.zip` 文件然后，它将处理 `sentences-bundle/sentences` 文件夹中的所有 JSON 文件，提取 `hitokoto` 和 `from` 字段，并将它们写入 `result.txt` 文件。
 
 ## License
 
